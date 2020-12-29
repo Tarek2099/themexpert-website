@@ -1,0 +1,562 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* Header Section responsive */
+    .main-menu .navbar-light .navbar-nav .active>.nav-link {
+        background: url(../images/bottom.png) left bottom no-repeat;
+    }
+
+    .main-menu .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+        padding: 5px 5px;
+        margin: 0px 15px;
+    }
+
+    .banner {
+        width: 100%;
+        padding: 29px 0;
+    }
+
+    .banner .inner-banner h1 {
+        font-size: 35px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        line-height: 46px;
+    }
+
+    .main-menu .form-inline .btn-primary {
+        padding-left: 0px;
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding-left: 0px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .main-menu .form-inline .btn-primary:hover {
+        color: #511de5;
+        background: none;
+    }
+
+    .main-menu .navbar-light .navbar-nav .nav-link:hover,
+    .main-menu .navbar-light .navbar-nav .nav-link:focus {
+        background: url(../images/bottom.png) left bottom no-repeat;
+    }
+
+    /* Header Section responsive  End*/
+    /* Highlight Section Css */
+    .high-section {
+        padding: 25px;
+    }
+
+    .high-section .inner-high h4 {
+        width: 65%;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        color: #fff;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .high-section .inner-high .inner-image img {
+        position: absolute;
+        top: -55px;
+        left: 0;
+        max-width: 176px;
+    }
+
+    /* Features Section Responsive */
+    .features .inner-features {
+        padding: 60px;
+        background: url(../images/feature-background.png) right bottom / 200px 200px no-repeat;
+    }
+
+    .features .inner-features h2 {
+        font-size: 32px;
+        line-height: 35px;
+
+    }
+
+    .features .inner-features p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .features .inner-features h4 {
+        font-size: 50px;
+    }
+
+    .intro-quote {
+        width: 100%;
+        padding: 110px 0;
+        background: url(../images/Quote-bg.png) top center no-repeat;
+        background-size: cover;
+        margin-top: 60px;
+    }
+
+    .intro-quote .inner-quote {
+        padding: 80px 0;
+    }
+
+    .intro-quote .inner-quote-img {
+        position: relative;
+    }
+
+    /*  Intro QUote responsive */
+    .intro-quote .blockquote {
+        width: 70%;
+        word-spacing: 2px;
+        position: absolute;
+        top: 47%;
+        left: 61%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+    .intro-quote .inner-quote .blockquote p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .intro-quote .inner-quote .blockquote .blockquote-footer {
+        font-size: 11px;
+        color: #fff;
+        font-weight: 700;
+        line-height: 27px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+
+.intro-quote .inner-banner {
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.intro-quote .inner-banner h1 {
+    width: 100%;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.intro-quote .inner-banner .btn-info {
+    font-size: 12px;
+    font-weight: 300px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: #f2f2f2;
+    border: none;
+    outline: none;
+    color: rgba(6, 17, 19, .7);
+    padding: 7px 32px;
+    border-radius: 15px;
+    margin: 20px 0;
+    transition: 1s;
+}
+
+.intro-quote .inner-banner .btn-info:hover {
+    background: linear-gradient(45deg, #511de5, #2b5af1);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+}
+
+/* Intro Qoute Responsive end */
+
+
+/* Portfolio Section Responsive end */
+
+
+/* ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px */
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* Header Section responsive */
+    .main-menu .navbar-light .navbar-nav .active>.nav-link {
+        background: url(../images/bottom.png) left bottom no-repeat;
+    }
+
+    .navbar-brand img {
+        max-width: 99px;
+    }
+
+    .main-menu .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+        padding: 5px;
+    }
+
+    .banner {
+        width: 100%;
+        padding: 29px 0;
+    }
+
+    .banner .offset-2 {
+        margin-left: 0px !important;
+    }
+
+    .banner .inner-banner h1 {
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        line-height: 35px;
+    }
+
+    .main-menu .navbar-light .navbar-nav .nav-link:hover,
+    .main-menu .navbar-light .navbar-nav .nav-link:focus {
+        background: url(../images/bottom.png) left bottom no-repeat;
+    }
+
+    .main-menu .form-inline .btn-primary {
+        padding-left: 0px;
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 6px;
+        margin-bottom: 10px;
+    }
+
+    .main-menu .form-inline .btn-primary:hover {
+        color: #511de5;
+        background: none;
+    }
+
+    .header-section .main-menu .btn-primary:hover {
+        padding: 5px 25px
+    }
+
+    /* Header Section responsive end */
+    /* Highlighted section REsponsive  */
+    .high-section {
+        padding: 25px 0;
+    }
+
+    .high-section .inner-high h4 {
+        width: 79%;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 24px;
+        color: #fff;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .high-section .inner-high .inner-image img {
+        position: absolute;
+        top: -48px;
+        left: 0;
+        max-width: 130px;
+    }
+
+    /* High Section Responsive ENd */
+
+    /* Features Section Responsive Css */
+    .features .inner-features {
+        width: 100%;
+        padding: 50px;
+        box-shadow: 1px 2px 10px #ccc;
+        background: url(../images/feature-background.png) bottom right no-repeat;
+        background-size: 150px 150px;
+    }
+
+    .features .inner-features h2 {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 34px;
+        color: #000;
+        margin-bottom: 12px;
+    }
+
+    .features .inner-features h4 {
+        font-size: 48px;
+        font-weight: 900;
+        display: inline-block;
+        background: linear-gradient(10deg, #511de5, #0b8cfb);
+        -webkit-text-fill-color: transparent !important;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+
+    /* intro QUote Responsive */
+    .intro-quote .blockquote {
+        width: 70%;
+        word-spacing: 2px;
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .intro-quote .inner-quote .blockquote p {
+        font-size: 24px;
+        line-height: 30px;
+        line-height: 30px;
+    }
+
+    .intro-quote .inner-quote .blockquote .blockquote-footer {
+        font-size: 16px;
+    }
+
+    .intro-quote .inner-banner {
+        width: 100%;
+        padding: 0px;
+        text-align: center !important;
+    }
+
+    .intro-quote .inner-banner h1 {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 45px;
+        color: #000;
+        margin: 45px 0;
+    }
+
+    /* Intro Qoute Responsive end */
+
+    /* Portfolio Section Responsive */
+
+    .portfolio .inner-port {
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 30px;
+
+    }
+
+    .portfolio .title-portfolio h1 {
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 33px;
+        color: #000;
+    }
+
+    .portfolio .title-portfolio p {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+
+    /* Portfolio Section Responsive end */
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* Header Section responsive */
+    .main-menu .navbar-light .navbar-nav .active>.nav-link {
+        background: url(../images/bottom.png) left bottom no-repeat;
+    }
+
+    .navbar-brand img {
+        max-width: 99px;
+    }
+
+    .main-menu .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+        padding: 5px;
+    }
+
+    .banner {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .inner-banner {
+        width: 100%;
+        padding: 75px 0;
+        text-align: right;
+    }
+
+    .main-menu .form-inline .btn-primary {
+        padding-left: 0px;
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 6px;
+        margin-bottom: 10px;
+    }
+
+    .main-menu .form-inline .btn-primary:hover {
+        color: #511de5;
+        background: none;
+    }
+
+    .banner .offset-2 {
+        margin-left: 0px !important;
+    }
+
+    .banner .inner-banner h1 {
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+
+    .main-menu .navbar-light .navbar-nav .nav-link:hover,
+    .main-menu .navbar-light .navbar-nav .nav-link:focus {
+        background: url(../images/bottom.png) left bottom no-repeat;
+    }
+
+    /* Header Section responsive End */
+
+    /* Banner Section RESponsive css */
+    .high-section {
+        padding: 25px 0;
+    }
+
+    .high-section .inner-high .inner-image img {
+        position: absolute;
+        top: -48px;
+        left: 0;
+        max-width: 130px;
+    }
+
+    .high-section .inner-high h4 {
+        width: 50%;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        color: #fff;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* Featuere Section Responsive Css */
+    .features .inner-features {
+        width: 100%;
+        padding: 30px;
+        box-shadow: 1px 2px 10px #ccc;
+        background: url(../images/feature-background.png) bottom right no-repeat;
+        background-size: 100px 100px;
+    }
+
+    .features .inner-features h2 {
+        font-size: 19px;
+        font-weight: 900;
+        line-height: 21px;
+        color: rgb(0, 0, 0);
+        margin-bottom: 12px;
+    }
+
+    .features .inner-features h4 {
+        font-size: 41px;
+        font-weight: 900;
+        display: inline-block;
+        background: linear-gradient(10deg, #511de5, #0b8cfb);
+        -webkit-text-fill-color: transparent !important;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+
+    .features .inner-features .small {
+        font-size: 9px;
+        color: #000 !important;
+        font-weight: 800;
+
+    }
+
+    /* Intro Qoute Section Responsive */
+
+    .intro-quote .blockquote {
+        width: 70%;
+        word-spacing: 2px;
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .intro-quote .inner-quote .blockquote p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .intro-quote .inner-quote .blockquote .blockquote-footer {
+        font-size: 14px;
+    }
+
+    .intro-quote .inner-banner {
+        width: 100%;
+        padding: 0px;
+        text-align: center !important;
+    }
+
+    .intro-quote .inner-banner h1 {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 45px;
+        color: #000;
+        margin: 45px 0;
+    }
+
+    /* Intro Qoute Section Responsive  End*/
+
+    /* Portfolio Section Responsive */
+
+    .portfolio .inner-port {
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 30px;
+
+    }
+
+    .portfolio .title-portfolio h1 {
+        font-size: 27px;
+        font-weight: 900;
+        line-height: 33px;
+        color: #000;
+    }
+
+    .portfolio .title-portfolio p {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+
+    /* Portfolio Section Responsive end */
+    /* Testimonial Section Responsive */
+    .testimonial {
+    width: 100%;
+    padding:0px;
+}
+
+
+.testimonial .title-testimonial h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 54px;
+    color: #000;
+    /* margin-bottom: 90px; */
+}
+.footer-section .inner-faq .title h2 {
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 35px;
+    color: #000;
+    margin-bottom: 0px;
+}
+    /* Testimonial Section Responsive ends */
+
+.copyright .f-copyright {
+    width: 100%;
+    margin: 10px;
+}
+
+}

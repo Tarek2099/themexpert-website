@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/* Header Section Css */
+.header-section {
+    width: 100%;
+    background: url("../images/hero.png") center no-repeat;
+    background-size: cover;
+}
+
+.main-menu .bg-light {
+    background-color: transparent !important;
+}
+
+.navbar-brand img {
+    max-width: 115px;
+}
+
+.main-menu .navbar-light .navbar-nav .active>.nav-link {
+    background: url("../images/layer.png") center bottom no-repeat;
+}
+
+.main-menu .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    padding: 5px 25px;
+
+}
+
+.main-menu .navbar-light .navbar-nav .nav-link:hover,
+.main-menu .navbar-light .navbar-nav .nav-link:focus {
+    background: url("../images/layer.png") center bottom no-repeat;
+}
+
+.main-menu .btn-primary {
+    color: black;
+    background-color: transparent !important;
+    border: none;
+    outline: none;
+    padding: 0px 22px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 1s;
+    margin-right: 10px;
+}
+
+.main-menu .btn-primary:hover,
+.main-menu .btn-primary:focus {
+    background: linear-gradient(45deg, #511de5, #2b5af1);
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 5px 35px;
+    border-radius: 15px;
+}
+
+.main-menu .btn-info {
+    background: linear-gradient(45deg, #511de5, #2b5af1);
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 5px 35px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.main-menu .btn-info:hover,
+.main-menu .btn-info:focus {
+    background: linear-gradient(45deg, #2b5af1, #511de5);
+}
+
+/* Banner Section Css Starts From here  */
+.banner {
+    width: 100%;
+    padding: 87px 0;
+    margin-top: 40px;
+
+
+}
+
+.inner-banner {
+    width: 100%;
+    padding-top: 48px;
+    text-align: right;
+
+
+}
+
+.inner-banner span {
+    color: #511de5;
+}
+
+.banner .inner-banner h1 {
+    font-size: 52px;
+    font-weight: 700;
+
+    line-height: 55px;
+    color: #000;
+}
+
+.banner .inner-banner .btn-info {
+    font-size: 12px;
+    font-weight: 300px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: #f2f2f2;
+    border: none;
+    outline: none;
+    color: rgba(6, 17, 19, .7);
+    padding: 7px 32px;
+    border-radius: 15px;
+    margin: 20px 0;
+    transition: 1s;
+}
+
+.banner .inner-banner .btn-info:hover {
+    background: linear-gradient(45deg, #511de5, #2b5af1);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+}
+
+/* Highlighted SEction Started from here */
+.high-section {
+    width: 100%;
+    padding: 40px 0;
+    background: url("../images/Rectangle1.png") center top no-repeat;
+    background-size: cover;
+}
+
+.high-section .inner-high .inner-image {
+    width: 100%;
+    position: relative;
+
+}
+
+.high-section .inner-high .inner-image img {
+    position: absolute;
+    top: -75px;
+    left: 0;
+    max-width: 232px;
+}
+
+.high-section .inner-high h4 {
+    width: 55%;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Highlighted Section Ends Here */
+
+/* Features Section css Starts from here */
+.features {
+    width: 100%;
+    padding: 80px 0;
+}
+
+.features .inner-features {
+    width: 100%;
+
+    padding: 80px;
+    box-shadow: 1px 2px 10px #ccc;
+    background: url("../images/card.png") bottom right no-repeat;
+
+    background-size: contain;
+}
+
+.features .inner-features h2 {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+.features .inner-features p {
+    font-size: 14px;
+    padding: 15px 0;
+}
+
+.features .inner-features h4 {
+    font-size: 70px;
+    font-weight: 900;
+    display: inline-block;
+    background: linear-gradient(10deg, #511de5, #0b8cfb);
+
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+
+.features .inner-features .small {
+    font-size: 14px;
+    color: #000 !important;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+/* Client Section */
+.clients {
+    width: 100%;
+
+}
+
+.client-images {
+    padding: 0px 30px;
+}
+
+/* Intro Qoute Css start from here */
+.intro-quote {
+    width: 100%;
+    padding: 110px 0;
+    background: url("../images/bg.png") top center no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+}
+
+.intro-quote .inner-quote {
+    padding: 80px 0;
+}
+
+.intro-quote .inner-quote-img {
+    position: relative;
+}
+
+
+.intro-quote .blockquote {
+    width: 70%;
+    word-spacing: 3px;
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+
+
+.intro-quote .inner-quote .blockquote p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.intro-quote .inner-quote .blockquote .blockquote-footer {
+    font-size: 17px;
+
+    color: #fff;
+    font-weight: 600;
+    line-height: 27px;
+    margin-top: 5px;
+}
+
+.intro-quote .inner-banner {
+    width: 100%;
+    padding: 100px 60px;
+    margin-left: 30px;
+}
+
+.intro-quote .inner-banner h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 45px;
+    color: #000;
+    margin: 45px 0;
+}
+
+.intro-quote .inner-banner .btn-info {
+    font-size: 12px;
+    font-weight: 300px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: #f2f2f2;
+    border: none;
+    outline: none;
+    color: rgba(6, 17, 19, .7);
+    padding: 7px 32px;
+    border-radius: 15px;
+    margin: 20px 0;
+    transition: 1s;
+}
+
+.intro-quote .inner-banner .btn-info:hover {
+    background: linear-gradient(45deg, #511de5, #2b5af1);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+}
+
+/* Effiency Section  Css starts from here */
+.effiency-section {
+    width: 100%;
+    padding: 80px 0;
+}
+
+.effiency-section .inner-effiency {
+    width: 100%;
+    padding: 90px 0;
+}
+
+.effiency-section .inner-effiency h2 {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 40px;
+    line-height: 48px;
+    color: #000;
+
+    margin-bottom: 12px;
+}
+
+.effiency-section .inner-effiency h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 20px 0px;
+}
+
+.effiency-section .inner-effiency p {
+    font-size: 14px;
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: 700;
+
+
+}
+
+.effiency-section .inner-effiency p img {
+    margin-right: 10px;
+}
+
+.effiency-section .inner-effiency .btn-primary {
+    background: linear-gradient(45deg, #511de5, #2b5af1);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 11px 35px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.effiency-section .inner-effiency .btn-primary:hover {
+    background: linear-gradient(45deg, #2b5af1, #511de5);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+}
+
+/* Portfolio Section Css starts From Here */
+.portfolio {
+    width: 100%;
+    padding: 100px 0px;
+    background: #fcfcfc;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.portfolio .title-portfolio {
+    width: 100%;
+}
+
+.portfolio .title-portfolio h1 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 55px;
+    color: #000;
+}
+
+.portfolio .title-portfolio p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 30px 0;
+}
+
+.portfolio .inner-port {
+    width: 100%;
+    padding: 80px 20px;
+    margin-top: 30px;
+
+}
+
+.portfolio .inner-port img {
+    margin: 10px 0;
+    mix-blend-mode: darken;
+    width: 86px;
+    height: auto;
+}
+
+.portfolio .inner-port h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.middle {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+/* testimonial section Starts  */
+.testimonial {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.testimonial .title-testimonial {
+    width: 100%;
+}
+
+.testimonial .title-testimonial h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 45px;
+    color: #000;
+    margin-bottom: 90px;
+}
+
+.testimonial .inner-testimonial {
+    width: 100%;
+    padding: 40px 0;
+    background: url(../images/comma.png) top right no-repeat;
+    border: 1px solid #eee;
+    transition: 1s;
+    opacity: .5;
+}
+
+.testimonial .inner-testimonial .test-text {
+    padding: 40px 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.testimonial .inner-testimonial .test-text h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    transition: 1s;
+}
+
+.testimonial .inner-testimonial .test-img {
+    padding: 40px 0px;
+}
+
+.testimonial .inner-testimonial .test-img img {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.testimonial .inner-testimonial .test-img h6 {
+
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 26px;
+    color: #777;
+    margin-bottom: 0px;
+    transition: 1s;
+}
+
+.testimonial .inner-testimonial .test-img p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #777;
+    margin-bottom: 0px;
+}
+
+.testimonial .inner-testimonial:hover {
+    opacity: 1.5;
+    box-shadow: 1px 0px 10px 2px #e0e0e0
+}
+
+.testimonial .inner-testimonial:hover .test-text h4 {
+    background: -webkit-linear-gradient(4deg, #511de5, #0b8cfb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Footer Section Css */
+.footer-section {
+    width: 100%;
+    background: url("../images/Home_4.png") center top no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+.footer-section .faq {
+    width: 100%;
+
+}
+.inner-faq{
+	width: 100%;
+	background: #fff;
+	padding: 80px;
+	box-shadow: 0px 2px 10px #ccc;
+}
+.footer-section .inner-faq .title{
+	width: 100%;
+	padding: 0px 0px 40px;
+	text-align: center;
+}
+.footer-section .inner-faq .title h2{
+	font-size: 52px;
+	font-weight: 900;
+	line-height: 62px;
+	color: #000;
+	margin-bottom: 25px;
+}
+.inner-faq .card{
+	background-clip: none;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid #eee !important;
+}
+.inner-faq .card-header{
+	padding: .75rem 1.25rem .75rem 0rem;
+	margin-bottom: 0;
+	background-color: transparent;
+	border-bottom: none;
+}
+.inner-faq .card .card-body{
+	padding: .25rem 1.25rem 1.25rem 0rem;
+	color: #000;
+	font-size: 14px;
+	line-height: 24px;
+}
+.inner-faq .card .card-header .btn-link{
+	font-weight: 700;
+	color: #000;
+	text-decoration: none;
+}
+.inner-faq .card .card-header .btn{
+	padding-left: 0px;
+}
+.inner-faq .card .card-header .btn-link:hover, .inner-faq .card .card-header .btn-link:focus{
+	color: #0000ff;
+}
+.inner-faq .card .card-header .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.copyright{
+	width: 100%;
+	padding-top: 100px;
+}
+.copyright .f-menu{
+   width: 100%;
+}
+.copyright .f-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.copyright .f-menu ul li {
+    display: inline-block;
+    padding: 0px 14px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.copyright .f-copyright{
+   width: 100%;
+}
+.copyright .f-copyright p{
+	font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+}
